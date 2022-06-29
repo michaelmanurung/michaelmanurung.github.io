@@ -5,69 +5,20 @@
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <title>Home</title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.tailwindcss.com"></script>
         <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>  
-        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+        <script src='tailwind.config.js'></script>
+        <script src='script.js'></script>
     </head>
     <body>
-        <div class="col-xs-12 test" style="height:13em;"></div>
-
-        <div class="container-xxl align-items-center">
-            <p class="h1 display-1 text-xl-center fw-light">Hello world.</p>
-            <div class="row align-item-center">
-                <div class="col"></div>
-                <div class="col">
-                    <button class="btn btn-outline-dark align-item-right" onClick="document.getElementById('page2').scrollIntoView();">What's next <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-                        </svg></button>
-                </div>
-                <div class="col"></div>
+        
+        <!-- Hero page -->
+        <div class="flex justify-center h-screen bg-slate-200">
+            <div class="flex place-self-center">
+                <h1 class="font-mono text-4xl font-semibold text-slate-800 capitalize ">hello, world </h1>
+                <h1 class="font-mono text-4xl font-thin text-slate-900 animate-pulse ease-in-out">|</h1>
             </div>
         </div>
-
-        <div class="col-xs-12 test" style="height:20em;"></div>
-
-        <div class="container-xxl pt-3" id="page2">
-            <div class="container-xl">
-                
-                <div class="row align-items-center">
-
-                    <div class="col">
-
-                    </div>
-
-                    <div class="col">
-                        <p class="display-5 text-center" id="tulisan">Fun Fact</p>
-                    </div>
-                    
-                    <div class="col">
-
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="container-xl">
-                <div class="row align-items-center">
-
-                    <div class="col">
-
-                    </div>
-
-                    <div class="col" id="target" >
-
-                    </div>
-                    
-                    <div class="col" id="page2">
-
-                    </div>
-                    
-                </div>
-            </div>
-
-            <div class="col-xs-12 test" style="height:10em;"></div>
-
-        </div>
-        <script src='script.js'></script>
+        
     </body>
 </html>
